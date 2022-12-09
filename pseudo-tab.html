@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>APP TAB example | Pseudo</title>
+    <style>
+        .tabs {
+            /*border: 1px dotted black;*/
+            list-style: none;
+            padding: 10px;
+            margin: 20px;
+                       
+
+        }
+        .tabs-item {
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            display: inline-block;
+
+            padding: 20px 10px;
+            margin: 5px;
+            text-align: center;
+            transition: 0.25s;
+            height: 110px;
+        }
+        .tabs-item:hover {
+            background-color: #cccccc;
+           
+        }
+
+        .tabs-img {
+            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+
+        .tabs-link {
+            text-decoration-line: none;
+            color: #333;
+        }
+        .tabs-options {
+            font-size: 30px;
+            line-height: 6px;
+            background-color: antiquewhite;
+            translate: 25px;
+            margin-top: 10px;
+            
+            
+            height: 32px;
+            width: 32px;
+            border-radius: 25px;
+
+            opacity: 0.2;
+
+            transform: translateX(64px) translateY(-135px);
+        }
+
+        .tabs-options:hover {
+            opacity: 1.0;
+
+        }
+    </style>
+</head>
+<body>
+    <ul class="tabs"
+        class="access this account"
+    >
+        <li class="tabs-item">
+            <a class="tabs-link" href="">
+                <img class="tabs-img" src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/72/Github-icon.png" alt="GitHub">
+                <br/>
+                username_here
+            </a>
+            <div class="tabs-options">
+                .<br/>.<br/>.
+            </div>
+        </li>
+        <li class="tabs-item">
+            <a class="tabs-link" href="">
+                <img class="tabs-img" src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/72/social-facebook-box-blue-icon.png" alt="Facebook">
+                <br/>
+                facebook_user
+            </a>
+            <div class="tabs-options">
+                .<br/>.<br/>.
+            </div>
+        </li>
+        <li class="tabs-item">
+            <a class="tabs-link" href="">
+                <img class="tabs-img" src="https://icons.iconarchive.com/icons/hopstarter/orb/72/Mozilla-Firefox-icon.png" alt="Mozilla Firefox">
+                <br/>
+                mozilla_firefox
+            </a>
+            <div class="tabs-options">
+                .<br/>.<br/>.
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
